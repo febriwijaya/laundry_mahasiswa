@@ -1,0 +1,594 @@
+/* navbar */
+
+.lengket {
+  position: sticky;
+}
+
+.navbar {
+  position: relative;
+  z-index: 1;
+}
+
+.navbar img {
+  width: 50px;
+  height: 50px;
+}
+
+.bawahxx {
+  min-height: 70px;
+  color: white;
+  background-color: #1A2C43;
+}
+
+/* .cardxx {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+} */
+
+.cardxx {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.cardxx:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.cardx {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.fontzz {
+  font-family: 'Pacifico', cursive;
+}
+
+.tema {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 40px;
+}
+
+
+.temaxx {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 16px;
+}
+
+.cardxx a {
+  font-family: 'Pacifico', cursive;
+  text-decoration: none;
+}
+
+.judul {
+  font-size: 30px;
+  font-family: 'Oregano', cursive;
+}
+
+.myparallax {
+  height: 300px;
+  background-image: url('parallax.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: #eaeaea;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.pKiri,
+.pKanan {
+  opacity: 0;
+  transform: translate(-50px, 0) rotate(15deg);
+  transition: 1s;
+}
+
+.pKanan {
+  transform: translate(50px, 0) rotate(-15deg);
+}
+
+.pKiri.pMuncul,
+.pKanan.pMuncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+footer {
+  display: block;
+}
+
+footer img {
+  width: 100px;
+  height: 100px;
+}
+
+.bawah {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 18px;
+}
+
+.ikon {
+  width: 25px;
+  height: 25px;
+}
+
+.bawahx {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 18px;
+  line-height: 50px;
+}
+
+.bawahx a {
+  text-decoration: none;
+  color: white;
+}
+
+.bawahz {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.myparallax h1,
+.myparallax p {
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.ukuran {
+  height: 220px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+}
+
+.navbar-brand {
+  font-family: Viga;
+  font-size: 32px;
+}
+
+.viga {
+  font-family: viga;
+  color: blue;
+  font-size: 32px;
+}
+
+section {
+  min-height: 500px;
+}
+
+.latar {
+  background-color: #eaeaea;
+}
+
+.minus {
+  margin-top: -25px;
+}
+
+.gambarx {
+  font-size: 24px;
+  text-align: center;
+}
+
+.rilis {
+  background-color: #F1F9FB;
+}
+
+.rilisxy {
+  background-color: #eee;
+  height: 850px;
+}
+
+/* jumbotron */
+.jumbotron {
+  background-image: url(img/jumbotron-bg.jpg);
+  background-size: cover;
+  height: 540px;
+  text-align: center;
+  position: relative;
+}
+
+.jumbotron .container {
+  z-index: 1;
+  position: relative;
+}
+
+.hr {
+  width: 450px;
+  border-top: 4px solid #999;
+}
+
+.hr2 {
+  width: 400px;
+  border-top: 4px solid #999;
+}
+
+.jumbotron::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.jumbotron .display-4 {
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 150px;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  font-size: 40px;
+}
+
+.info-panel {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  margin-top: -100px;
+  background-color: white;
+  padding: 30px;
+}
+
+.info-panel img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.info-panel h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.info-panel p {
+  font-size: 14px;
+  color: #acacac;
+  margin-top: -5px;
+  font-weight: 200;
+}
+
+/* working space */
+.workingspace {
+  margin-top: 120px;
+  text-align: center;
+}
+
+
+.workingspace p {
+  font-size: 18px;
+  color: #acacac;
+  font-weight: 200;
+  margin: 30px 0;
+}
+
+.workingspace h3 {
+  font-size: 52px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+
+.workingspace h3 span {
+  font-weight: 500;
+}
+
+.jumbotron .display-4 span {
+  font-weight: 500;
+}
+
+/* utility */
+.tombol {
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
+/* testimonial */
+.testimonial {
+  margin-top: 100px;
+}
+
+.testimonial h5 {
+  text-align: center;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 32px;
+}
+
+.testimonial figure img {
+  width: 60px;
+  margin: 20px 10px 10px;
+  opacity: 0.6;
+}
+
+.testimonial figure img.utama {
+  width: 90px;
+  opacity: 1;
+  margin-top: 5px;
+}
+
+.testimonial figure h5 {
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  color: #1c2c5d;
+}
+
+.testimonial figure p {
+  font-size: 12px;
+  color: #acacac;
+  margin-top: -5px !important;
+}
+
+.testimonial figcaption {
+  text-align: center;
+}
+
+/* footer */
+.footer {
+  margin-top: 100px;
+}
+
+.footer p {
+  color: #acacac;
+  font-size: 18px;
+}
+
+/* dekstop version */
+@media (min-width: 992px) {
+
+  .navbar-brand,
+  .nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
+
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid white;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .nav-link:active::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid white;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+
+  .jumbotron {
+    margin-top: -75px;
+    height: 640px;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 62px;
+  }
+
+  .workingspace {
+    text-align: left;
+  }
+
+  .testimonial h5 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .carousel-inner img {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+  }
+
+  .cardxx {
+    margin-bottom: 15px;
+  }
+
+  .bawahx {
+    line-height: 30px;
+  }
+
+  .gambarx {
+    text-align: left;
+  }
+
+  .jarak img {
+    margin-bottom: 20px;
+  }
+
+  .tab-content img {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .tab-content button {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width:540px) {
+  .cardxx {
+    width: 100%;
+  }
+
+  .jarak img {
+    height: 250px;
+    width: 470px;
+  }
+
+  .nav-tabs a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width:960px) {
+  .img-fluid {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width:1200px) {
+  .navbar-nav a {
+    font-size: 12px;
+  }
+}
+
+.body {
+  background-image: url('parallax.jpg');
+  position: relative;
+}
+
+.form {
+  background: rgba(0, 0, 0, 0.39);
+  box-shadow: 0px 0px 20px 6px;
+  border-radius: 5px;
+  width: 300px;
+  margin: 15px auto;
+  padding: 20px;
+}
+
+.form h1 {
+  color: #eee;
+  text-align: center;
+}
+
+.form img {
+  width: 200px;
+}
+
+.input {
+  background: rgba(23, 20, 20, 0.52);
+  font-size: 12pt;
+  font-family: arial;
+  color: #eee;
+  width: 100%;
+  height: 40px;
+  padding: 5px 5px 5px 10px;
+  margin: 3px;
+  border-radius: 3px;
+  border: none;
+}
+
+input[type=submit] {
+  background: rgba(31, 15, 2, 0.78);
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.input:hover,
+.input:focus {
+  background: rgba(97, 52, 13, 0.55);
+  outline-style: none;
+}
+
+input[type=submit]:hover,
+input[type=submit]:focus {
+  background: rgba(31, 15, 2, 0.78);
+}
+
+.admin {
+  font-family: 'Satisfy',
+    cursive;
+}
+
+.x {
+  width: 540px;
+  height: 315px;
+}
+
+.roboto {
+  font-family: 'Roboto',
+    sans-serif;
+  line-height: 28px;
+}
+
+.jarak {
+  margin-top: 50px;
+}
+
+.nav-tabs a {
+  width: 30%;
+  text-align: center;
+}
+
+.icon1 {
+  font-size: 80px;
+}
+
+.centerx {
+  text-align: center;
+}
+
+.keterangan {
+  font-size: 14px;
+  line-height: 24px;
+  font-style: "Open Sans", sans-serif;
+  text-align: justify;
+  font-weight: 500;
+}
+
+.xx {
+  margin-top: -80px;
+}
+
+.ukuranx {
+  width: 300px;
+  height: 200px;
+}
+
+@media (max-width:960px) {
+  .ukuranx {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.gambar-klien {
+  height: 90px;
+}
+
+.nav-tabs a:hover {
+  background-color: #007bff;
+  text-decoration: none !important;
+}
+
+.batas {
+  margin-bottom: 200px;
+}
+
+@media (max-width:720px) {
+  .bawahkan {
+    margin-bottom: 40px;
+  }
+
+  .penuh {
+    width: 100%;
+  }
+
+
+}
